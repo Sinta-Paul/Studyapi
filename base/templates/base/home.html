@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>DAD JOKES</title>
+        <link href="https://fonts.googleapis.com/css?family=Nunito Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Erica One" rel="stylesheet">
+    <style>
+    body
+    {
+        background-color:#1E1E1E;
+        font-family: "Nunito Sans";
+    }
+    h2{
+        font-family: "Nunito Sans";
+        color: rgb(146, 92, 196);
+        text-align: center;
+    }
+    h3
+    {
+        text-align: center;
+        font-family: "Nunito Sans";
+        color:antiquewhite;
+        margin-bottom: 10%;
+    }
+    .maincontainer
+    {
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .heading
+    {
+        margin-left: 30%;
+        font-family: "Erica One";
+        color: antiquewhite;
+        font-size:40px;
+    }
+    a
+    {
+        margin-left: 30%;
+        text-decoration-line: none;
+        padding: 3%;
+        background-color: rgb(146, 92, 196);
+        color: antiquewhite;
+        border-radius: 2%;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="maincontainer">
+            <div class="heading">DADJOKES</div>
+        <h2>
+            {{setup}}
+        </h2>
+        <h3>
+            {{punchline}}
+        </h3>
+        <a href="{% url 'home' %}">Generate more Dad Jokes</a>
+    </div>
+    </body>
+</html>
